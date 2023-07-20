@@ -1,0 +1,6 @@
+@import './global';
+@import './var';
+
+.main_content {
+    min-height: calc(100vh - $header-height - $footer-height);
+}

@@ -1,0 +1,22 @@
+@import '../../styles/global';
+@import '../../styles/var';
+
+.homepage {
+    &_main {
+        display: flex;
+        align-items: center;
+        background: #413c3c top / cover no-repeat
+            url('../../../public/img/fon_hp.jpg');
+        min-height: 600px;
+        margin-bottom: 5rem;
+        &__info {
+            h1 {
+                text-align: center;
+                color: whitesmoke;
+                font-family: 'Dancing Script', serif;
+                font-size: 9rem;
+                padding: 5rem 3rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+@import '../../styles/global';
+@import '../../styles/var';
+
+.footer {
+    min-height: $footer-height;
+    background-color: $base-color;
+    p {
+        font-size: 1.5rem;
+        color: gold;
+        text-transform: uppercase;
+    }
+    p:first-child {
+        padding-left: 1rem;
+    }
+    img {
+        margin: 10px auto;
+    }
+    a + a {
+        margin: 0 20px;
+    }
+}
+
+.contacts {
+    display: flex;
+    > p {
+        margin-right: 20px;
+    }
+    > a:last-child {
+        margin-right: 1rem;
+    }
+}

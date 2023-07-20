@@ -1,0 +1,20 @@
+@import '../../styles/global';
+@import '../../styles/var';
+
+.card {
+    @include card;
+    &_image {
+        @include card-image;
+    }
+    &_description {
+        @include card-description;
+    }
+    &_btn {
+        @include card-btn;
+    }
+    span {
+        font-size: 3rem;
+        font-weight: 900;
+        margin: 1rem;
+    }
+}

@@ -1,0 +1,11 @@
+@import '../../styles/global';
+@import '../../styles/var';
+
+.header {
+    min-height: 120px;
+    background-color: $base-color;
+    p {
+        color: white;
+        margin-right: 1rem;
+    }
+}
