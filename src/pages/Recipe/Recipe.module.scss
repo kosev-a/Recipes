@@ -1,0 +1,58 @@
+@import '../../styles/global';
+@import '../../styles/var';
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    margin: 5rem auto 2rem;
+}
+
+.recipe {
+    &_img {
+        display: flex;
+        max-width: 100%;
+        justify-content: center;
+        margin-bottom: 3rem;
+    }
+    &_info {
+        &__instructions {
+            > h3 {
+                text-align: center;
+                font-size: 2rem;
+                margin-bottom: 1rem;
+            }
+            > p {
+                margin: 2rem;
+                text-align: justify;
+            }
+        }
+        &__table {
+            margin: 2rem auto 4rem;
+            td {
+                padding: 0.5rem 2rem;
+            }
+        }
+        &__tag {
+            text-align: center;
+            font-size: 1.5rem;
+            line-height: 2.5rem;
+            font-style: oblique;
+            > span {
+                font-weight: 700;
+            }
+        }
+    }
+    &_video {
+        display: flex;
+        flex-direction: column;
+        > h3 {
+            text-align: center;
+            font-size: 2rem;
+        }
+        iframe {
+            margin: 2rem auto;
+            height: 320px;
+            width: 640px;
+        }
+    }
+}
