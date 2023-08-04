@@ -23,8 +23,8 @@ export const Recipe = () => {
                 <Preloader />
             ) : (
                 <>
-                    <h1>{recipe.strMeal}</h1>
                     <div className={classes.recipe}>
+                        <h1>{recipe.strMeal}</h1>
                         <div className={classes.recipe_img}>
                             <img src={recipe.strMealThumb} alt={recipe.strMeal} />
                         </div>

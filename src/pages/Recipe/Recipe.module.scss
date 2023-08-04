@@ -1,18 +1,19 @@
 @import '../../styles/global';
 @import '../../styles/var';
 
-h1 {
-    font-size: 4rem;
-    text-align: center;
-    margin: 5rem auto 2rem;
-}
-
 .recipe {
+    > h1 {
+        font-size: 4rem;
+        text-align: center;
+        margin: 5rem auto 2rem;
+    }
     &_img {
         display: flex;
-        max-width: 100%;
         justify-content: center;
         margin-bottom: 3rem;
+        > img {
+            max-width: 100%;
+        }
     }
     &_info {
         &__instructions {
@@ -22,6 +23,8 @@ h1 {
                 margin-bottom: 1rem;
             }
             > p {
+                font-size: 1.2rem;
+                line-height: 1.8rem;
                 margin: 2rem;
                 text-align: justify;
             }
@@ -52,7 +55,7 @@ h1 {
         iframe {
             margin: 2rem auto;
             height: 320px;
-            width: 640px;
+            width: 430px;
         }
     }
 }
