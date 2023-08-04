@@ -10,7 +10,7 @@ import { Recipe } from './pages/Recipe/Recipe';
 function App() {
     return (
         <>
-            <BrowserRouter basename="/react-food">
+            <BrowserRouter basename="/Recipes">
                 <Header />
                 <main className={classes.main_content}>
                     <Routes>

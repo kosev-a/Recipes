@@ -4,7 +4,6 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 export const CategoryItem = (props) => {
     const {
-        // idCategory,
         strCategory,
         strCategoryThumb,
         strCategoryDescription,
@@ -14,16 +13,10 @@ export const CategoryItem = (props) => {
     return (
         <div className={classes.card}>
             <div className={classes.card_image}>
-                {/* <img src={strCategoryThumb} alt={strCategory} /> */}
                 <LazyLoadImage
                     alt={strCategory}
-                    // height={image.height}
-                    // Make sure to pass down the scrollPosition,
-                    // this will be used by the component to know
-                    // whether it must track the scroll position or not
                     scrollPosition={scrollPosition}
                     src={strCategoryThumb}
-                // width={image.width} 
                 />
                 <span>{strCategory}</span>
             </div>
