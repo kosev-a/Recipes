@@ -20,3 +20,18 @@
         }
     }
 }
+
+@media screen and (min-device-width: 150px) and (max-device-width: 768px) {
+    .homepage {
+        &_main {
+            min-height: 300px;
+            margin-bottom: 3rem;
+            &__info {
+                h1 {
+                    font-size: 2rem;
+                    padding: 2rem 1rem;
+                }
+            }
+        }
+    }
+}

@@ -29,3 +29,29 @@
         margin-right: 1rem;
     }
 }
+
+@media screen and (min-device-width: 250px) and (max-device-width: 767px) {
+    .footer {
+        p {
+            font-size: 0.8rem;
+        }
+        p:first-child {
+            padding-left: 0.7rem;
+        }
+        img {
+            margin: 5px auto;
+        }
+        a + a {
+            margin: 0 10px;
+        }
+    }
+
+    .contacts {
+        > p {
+            margin-right: 10px;
+        }
+        > a:last-child {
+            margin-right: 0.5rem;
+        }
+    }
+}

@@ -36,7 +36,8 @@ export const Header = () => {
             <div className={cn(classes.wrap, classes.flex_sb)}>
                 <Link to="/">
                     <img
-                        src="/img/logo.svg"
+                        className={classes.logo_img}
+                        src="./img/logo.svg"
                         height="120px"
                         width="160px"
                         alt="logo"
@@ -49,7 +50,7 @@ export const Header = () => {
                     >
                         CATEGORIES
                         <img
-                            src="/img/burger-menu.svg"
+                            src="./img/burger-menu.svg"
                             height="60px"
                             alt=""
                         />

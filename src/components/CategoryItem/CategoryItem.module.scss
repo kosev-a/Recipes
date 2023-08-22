@@ -18,3 +18,11 @@
         margin: 1rem;
     }
 }
+
+@media screen and (min-device-width: 250px) and (max-device-width: 767px) {
+    .card {
+        span {
+            font-size: 2rem;
+        }
+    }
+}

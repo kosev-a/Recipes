@@ -10,14 +10,14 @@ export const Footer = () => {
                     <p>contacts:</p>
                     <a href="https://github.com/kosev-a" target="_blank" rel="noreferrer">
                         <img
-                            src="/img/github.svg"
+                            src="./img/github.svg"
                             height="30px"
                             alt="github link"
                         />
                     </a>
                     <a href="https://t.me/x_koss" target="_blank" rel="noreferrer">
                         <img
-                            src="/img/telegram.svg"
+                            src="./img/telegram.svg"
                             height="37px"
                             alt="telegram link"
                         />
